@@ -1,6 +1,6 @@
 {
-  "name": "@ntik/jsdoc-theme",
-  "version": "1.2.3",
+  "name": "tik-jsdoc-theme",
+  "version": "1.0.1",
   "description": "Clean and minimal JSDoc 3 Template / Theme",
   "main": "publish.js",
   "scripts": {
