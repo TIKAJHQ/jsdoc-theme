@@ -242,6 +242,7 @@ pre.prettyprint {
 
 .attributes .param-desc, .attributes .description {
   display: block;
+  word-break: break-word;
   padding-left: 1.7rem; }
   .attributes .param-desc p, .attributes .description p {
     
