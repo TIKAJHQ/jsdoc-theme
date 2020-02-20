@@ -13,30 +13,25 @@ if (data.defaultvalue && (data.defaultvaluetype === 'object' || data.defaultvalu
     var properties = data.properties;
     if (properties && properties.length && properties.forEach) {
 ?>
-
     <h5 class="subsection-title">Properties:</h5>
-
     <?js= this.partial('properties.tmpl', data) ?>
-
 <?js } ?>
-
 <dl class="details">
-
     <?js if (data.version) {?>
-    <dt class="tag-version">Version:</dt>
-    <dd class="tag-version"><ul class="dummy"><li><?js= version ?></li></ul></dd>
+        <dt class="tag-version">Version:</dt>
+        <dd class="tag-version"><ul class="dummy"><li><?js= version ?></li></ul></dd>
     <?js } ?>
 
     <?js if (data.since) {?>
-    <dt class="tag-since">Since:</dt>
-    <dd class="tag-since"><ul class="dummy"><li><?js= since ?></li></ul></dd>
+        <dt class="tag-since">Since:</dt>
+        <dd class="tag-since"><ul class="dummy"><li><?js= since ?></li></ul></dd>
     <?js } ?>
 
     <?js if (data.inherited && data.inherits && !data.overrides) { ?>
-    <dt class="inherited-from">Inherited From:</dt>
-    <dd class="inherited-from"><ul class="dummy"><li>
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from"><ul class="dummy"><li>
         <?js= this.linkto(data.inherits, this.htmlsafe(data.inherits)) ?>
-    </li></ul></dd>
+        </li></ul></dd>
     <?js } ?>
 
     <?js if (data.overrides) { ?>
@@ -131,7 +126,6 @@ if (data.defaultvalue && (data.defaultvaluetype === 'object' || data.defaultvalu
         <?js }); ?></ul>
     </dd>
     <?js } ?>
-
     <?js if (data.todo && todo.length) {?>
     <dt class="tag-todo">To Do:</dt>
     <dd class="tag-todo">
