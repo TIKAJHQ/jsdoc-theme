@@ -15,10 +15,16 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 160%;
 }
 
+
+a.permalink{
+  color: grey !important;
+  position: relative;
+  float: right;
+}
 a,
 a:active {
   color: #0095dd;
@@ -91,7 +97,6 @@ h6 {
 
 tt, code, kbd, samp {
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
-  background: #f4f4f4;
   padding: 1px 5px;
   border-radius: 5px;
   font-size: 14px;
@@ -229,7 +234,8 @@ nav {
   height: 100%;
   padding: 10px;
   border-right: 1px solid #eee;
-  /* box-shadow: 0 0 3px rgba(0,0,0,0.1); */
+  top:0;
+   box-shadow: 0 0 3px rgba(0,0,0,0.1);
 }
 
 nav li {
@@ -289,9 +295,6 @@ footer {
   margin-left: 250px;
   display: block;
   padding: 30px;
-  font-style: italic;
-  font-size: 90%;
-  border-top: 1px solid #eee;
 }
 
 .ancestors {
@@ -371,72 +374,72 @@ footer {
   margin: 0;
 }
 
-.prettyprint {
-  font-size: 13px;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.05);
-  overflow: auto;
-}
+/*.prettyprint {*/
+/*  font-size: 13px;*/
+/*  border: 1px solid #ddd;*/
+/*  border-radius: 3px;*/
+/*  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.05);*/
+/*  overflow: auto;*/
+/*}*/
 
-.prettyprint.source {
-  width: inherit
-}
+/*.prettyprint.source {*/
+/*  width: inherit*/
+/*}*/
 
-.prettyprint code {
-  font-size: 12px;
-  line-height: 18px;
-  display: block;
-  background-color: #fff;
-  color: #4D4E53;
-}
+/*.prettyprint code {*/
+/*  font-size: 12px;*/
+/*  line-height: 18px;*/
+/*  display: block;*/
+/*  background-color: #fff;*/
+/*  color: #4D4E53;*/
+/*}*/
 
-.prettyprint code:empty:before {
-  content: '';
-}
+/*.prettyprint code:empty:before {*/
+/*  content: '';*/
+/*}*/
 
-.prettyprint > code {
-  padding: 15px
-}
+/*.prettyprint > code {*/
+/*  padding: 15px*/
+/*}*/
 
-.prettyprint .linenums code {
-  padding: 0 15px
-}
+/*.prettyprint .linenums code {*/
+/*  padding: 0 15px*/
+/*}*/
 
-.prettyprint .linenums li:first-of-type code {
-  padding-top: 15px
-}
+/*.prettyprint .linenums li:first-of-type code {*/
+/*  padding-top: 15px*/
+/*}*/
 
-.prettyprint code span.line {
-  display: inline-block
-}
+/*.prettyprint code span.line {*/
+/*  display: inline-block*/
+/*}*/
 
-.prettyprint.linenums {
-  padding-left: 70px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+/*.prettyprint.linenums {*/
+/*  padding-left: 70px;*/
+/*  -webkit-user-select: none;*/
+/*  -moz-user-select: none;*/
+/*  -ms-user-select: none;*/
+/*  user-select: none;*/
+/*}*/
 
-.prettyprint.linenums ol {
-   padding-left: 0
-}
+/*.prettyprint.linenums ol {*/
+/*   padding-left: 0*/
+/*}*/
 
-.prettyprint.linenums li {
-   border-left: 3px #ddd solid
-}
+/*.prettyprint.linenums li {*/
+/*   border-left: 3px #ddd solid*/
+/*}*/
 
-.prettyprint.linenums li.selected, .prettyprint.linenums li.selected * {
-   background-color: lightyellow
-}
+/*.prettyprint.linenums li.selected, .prettyprint.linenums li.selected * {*/
+/*   background-color: lightyellow*/
+/*}*/
 
-.prettyprint.linenums li * {
-   -webkit-user-select: text;
-   -moz-user-select: text;
-   -ms-user-select: text;
-   user-select: text;
-}
+/*.prettyprint.linenums li * {*/
+/*   -webkit-user-select: text;*/
+/*   -moz-user-select: text;*/
+/*   -ms-user-select: text;*/
+/*   user-select: text;*/
+/*}*/
 
 .params, .props {
   border-spacing: 0;
