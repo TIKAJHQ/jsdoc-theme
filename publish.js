@@ -524,6 +524,7 @@ function buildNavType(type, typeLink) {
  @param {object} opts
  @param {Tutorial} tutorials
  */
+
 exports.publish = function (taffyData, opts, tutorials) {
     data = taffyData
 
