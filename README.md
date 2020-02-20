@@ -1,21 +1,13 @@
-# Minami
+# TIKAJ JSDoc Theme
 
 A clean, responsive documentation template theme for JSDoc 3.
 
-![Minami Screenshot](http://i.imgur.com/rPCIFqT.png)
-
-
-## Uses
-
-- [the Taffy Database library](http://taffydb.com/)
-- [Underscore Template library](http://underscorejs.org/#template)
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) & Helvetica Neue
 
 
 ## Install
 
 ```bash
-$ npm install --save-dev minami
+$ npm install --save-dev tik-jsdoc-theme
 ```
 
 
@@ -24,7 +16,7 @@ $ npm install --save-dev minami
 Clone repository to your designated `jsdoc` template directory, then:
 
 ```bash
-$ jsdoc entry-file.js -t path/to/minami
+$ jsdoc entry-file.js -t path/to/tik-jsdoc-theme
 ```
 
 
@@ -42,7 +34,7 @@ In your `.jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/minami"
+  "template": "node_modules/tik-jsdoc-theme"
 }
 ```
 
@@ -74,7 +66,7 @@ In your `.jsdoc.json` file, add a template option.
         "encoding": "utf8",
         "private": true,
         "recurse": true,
-        "template": "./node_modules/minami"
+        "template": "./node_modules/tik-jsdoc-theme"
     }
 }
 ```
