@@ -712,6 +712,10 @@ pre.prettyprint .com {
     /*padding-left: 1.7rem*/
 }
 
+.attributes .description td.name, .attributes .description td.type {
+    word-break: normal;
+}
+
 .attributes .description ul.params, .attributes .param-desc ul.params {
     list-style: none;
     padding-left: .6rem;
